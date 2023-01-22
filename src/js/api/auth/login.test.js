@@ -10,11 +10,11 @@ const TEST_PASSWORD = "password123";
 const TEST_ACCESSTOKEN = "fakeAccessToken";
 
 // response.json()
-const TEST_USER = {
+const TEST_USER = JSON.stringify({
     name: TEST_NAME,
     email: TEST_EMAIL,
     accessToken: TEST_ACCESSTOKEN
-};
+});
 
 // await fetch()
 function fetchSuccess(){
