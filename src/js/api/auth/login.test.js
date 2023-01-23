@@ -28,7 +28,7 @@ function fetchSuccess(){
 
 describe("login", () => {
     it("stores a token when provided with valid credentials", async () => {
-        global.fetch = jest.fn(() => fetchSuccess()) // Setting which of our mock functions is going to replace fetch() in this situation. We are setting success because we wnat a succesful response
+        global.fetch = jest.fn(() => fetchSuccess()); // Setting which of our mock functions is going to replace fetch() in this situation. We are setting success because we wnat a succesful response
         const mockLoginResponse = await login(TEST_EMAIL, TEST_PASSWORD);
 
         global.localStorage.setItem("token", TEST_ACCESSTOKEN);
