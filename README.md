@@ -32,7 +32,7 @@ https://ohjenssen.github.io/workflow-ca/
 - npm run test-unit (run tests with jest)
 
 ### Formatting
-Prettier
+### Prettier
 To run Prettier write:
 - npm run format
 
