@@ -23,21 +23,36 @@ git clone --branch workflow https://github.com/ohjenssen/workflow-ca.git
 ```
 
 2. Install dependencies (write in terminal)
-- npm i 
+```
+npm i
+```
 
 3. Build production files
-- npm run build
+```
+npm run build
+```
 
 4. Other commands that are useful when developing
-- npm run start (sass live server)
-- npm run testing-cypress (open and run testing with Cypress)
-- npm run test-unit (run tests with jest)
+```
+// sass live server
+npm run start
+
+// open and run testing with Cypress
+npm run testing-cypress
+
+// run unit testw with jest
+npm run test-unit
+```
 
 ### Formatting
 ### Prettier
 To run Prettier write:
-- npm run format
+```
+npm run format
+```
 
 #### Eslint
 To run esling write:
-- npm run lint-fix
+```
+npm run lint-fix
+```
