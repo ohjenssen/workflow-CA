@@ -18,7 +18,9 @@ https://ohjenssen.github.io/workflow-ca/
 
 ### Installing 
 1. Clone the repo
-- git clone --branch workflow https://github.com/ohjenssen/workflow-ca.git
+```
+git clone --branch workflow https://github.com/ohjenssen/workflow-ca.git
+```
 
 2. Install dependencies (write in terminal)
 - npm i 
